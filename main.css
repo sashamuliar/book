@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Essays 1743";
+  src: url("fonts/Essays1743.ttf"); 
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Essays 1743";
+  font-weight: bold;
+  src: url("fonts/Essays1743-bold.ttf");
+}
+@font-face {
+  font-family: "Essays 1743";
+  font-style: italic;
+  src: url("fonts/Essays1743-italic.ttf");
+}
+@font-face {
+  font-family: "Essays 1743";
+  font-style: italic;
+  font-weight: bold;
+  src: url("fonts/Essays1743-bolditalic.ttf");
+}
+body{
+    font: large/1.556 "Libertine", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
+    word-spacing: 0.1em;
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+h1{
+	text-align: center;
+	width: 100%;
+	margin:1.49em 0;
+	font-family: "Essays 1743", Arial;
+	font-size: 266.7%; 
+	font-weight: normal;
+	text-shadow: 0 0 1px #667;
+	line-height: 1.1;
+}
+h2{
+	font-family: "Essays 1743", Arial;
+	font-size: 210%;
+	font-weight: normal;
+	text-shadow: 0 0 1px #667;
+	line-height: 1.3125;
+}
+p{
+	font-family: Libertine, Arial;
+	margin: 1.556em 0;
+	font-size: large;
+}
+.cont{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: #B22222;
+	border-bottom: 1px dotted ;
+}
+a:hover{
+	border-bottom: 1px solid;
+
+}
+.video_img{
+	float: right;
+	margin: 0 0 1.75em 1.75em;
+}
+.form_img{
+	float: left;
+	margin: 0 1.75em 1.75em 0;
+}
+.img_markup{
+	float: right;
+	margin: 0 0 1.75em 1.75em;
+}
+.img_email{
+	float: left;
+	margin: 0 1.75em 1.75em 0;
+}
+.img_gears{
+	float: right;
+	margin: 0 0 1.75em 1.75em;
+}
+.paragraph h4{
+	background-color: #000;
+	color: #fff;
+	margin:0 auto;
+}
+.money_bag{
+	border:solid 1px #000;
+	background: url("images/openclipart.org_johnny_automatic_bag_of_money.png")no-repeat right bottom;
+	padding: 0 190px 1.75em 0;
+}
+.c{
+	text-align: center;
+}
+.c a{
+	color: inherit;
+}
+form{
+	padding: 0 auto;
+	text-align: center;
+}
